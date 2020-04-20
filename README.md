@@ -7,6 +7,8 @@
 ## Install
 
 ```bash
+yarn add react-progress-bar
+# or
 npm install --save react-progress-bar
 ```
 
@@ -15,12 +17,12 @@ npm install --save react-progress-bar
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-progress-bar'
+import Progress from 'react-progress-bar'
 import 'react-progress-bar/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Progress value={0.6} />
   }
 }
 ```

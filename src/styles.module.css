@@ -1,9 +1,59 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+:root {
+  --ys-progress-background: rgba(255, 255, 255, 0.2);
+  --ys-progress-value: #2962FF;
+}
+
+.container {
+  position: relative;
+  cursor: pointer;
+  width: 20rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.container .progress,
+.container .slider,
+.container .value {
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  height: 0.5rem;
+  box-sizing: border-box;
+  transition: all .12s linear;
+  transform: scaleY(0.5);
+  pointer-events: none;
+}
+
+.container:hover .progress,
+.container:hover .value,
+.container.handled .progress,
+.container.handled .value {
+  transition: transform .218s linear;
+  transform: scaleY(1);
+}
+
+.container:hover .slider,
+.container.handled .slider {
+  transition: transform .12s linear;
+  transform: scale(1);
+}
+
+.container .progress {
+  right: 0;
+  background: var(--ys-progress-background);
+}
+.container .value {
+  background: var(--ys-progress-value);
+}
+.container .slider {
+  background: var(--ys-progress-value);
+  transform: scale(0);
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: -0.5rem 0 0 -0.75rem;
+  border-radius: 50%;
 }
