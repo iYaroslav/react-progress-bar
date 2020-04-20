@@ -1,19 +1,16 @@
 # react-progress-bar
-
 > Made with create-react-library
 
 [![NPM](https://img.shields.io/npm/v/react-progress-bar.svg)](https://www.npmjs.com/package/react-progress-bar) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
-
 ```bash
-yarn add react-progress-bar
+yarn add @iyaroslav/react-progress-bar
 # or
-npm install --save react-progress-bar
+npm install --save @iyaroslav/react-progress-bar
 ```
 
 ## Usage
-
 ```tsx
 import React, { Component } from 'react'
 
@@ -28,5 +25,4 @@ class Example extends Component {
 ```
 
 ## License
-
 MIT © [iYaroslav](https://github.com/iYaroslav)
