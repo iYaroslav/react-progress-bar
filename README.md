@@ -11,6 +11,9 @@ npm install --save @iyaroslav/react-progress-bar
 ```
 
 ## Usage
+
+[Demo](https://iyaroslav.github.io/react-progress-bar/)
+
 ```tsx
 import React, { Component } from 'react'
 
