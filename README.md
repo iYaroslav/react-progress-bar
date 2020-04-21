@@ -27,5 +27,11 @@ class Example extends Component {
 }
 ```
 
+## TODO
+- [ ] Min/Max values
+- [ ] Step
+- [ ] Readonly mode
+- [ ] Range mode
+
 ## License
 MIT © [iYaroslav](https://github.com/iYaroslav)
