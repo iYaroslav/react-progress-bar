@@ -10,6 +10,12 @@ yarn add @iyaroslav/react-progress-bar
 npm install --save @iyaroslav/react-progress-bar
 ```
 
+## Intro
+
+<p align="center">
+  <img width="600" src="https://raw.githubusercontent.com/iYaroslav/react-progress-bar/master/media/example.png">
+</p>
+
 ## Usage
 
 [Demo](https://iyaroslav.github.io/react-progress-bar/)
