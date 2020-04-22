@@ -1,4 +1,7 @@
 # react-progress-bar
+
+Progress bar optimized for frequent updates
+
 > Made with create-react-library
 
 [![NPM](https://img.shields.io/npm/v/@iyaroslav/react-progress-bar.svg)](https://www.npmjs.com/package/@iyaroslav/react-progress-bar) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
