@@ -1,8 +1,8 @@
 /* add css module styles here (optional) */
 
 :root {
-  --ys-progress-background: rgba(255, 255, 255, 0.2);
-  --ys-progress-value: #2962FF;
+  --ys-foreground: #FFF;
+  --ys-accent: #2962FF;
 }
 
 .container {
@@ -44,13 +44,14 @@
 
 .container .progress {
   right: 0;
-  background: var(--ys-progress-background);
+  background: var(--ys-foreground);
+  opacity: 0.2;
 }
 .container .value {
-  background: var(--ys-progress-value);
+  background: var(--ys-accent);
 }
 .container .slider {
-  background: var(--ys-progress-value);
+  background: var(--ys-accent);
   transform: scale(0);
   width: 1.5rem;
   height: 1.5rem;

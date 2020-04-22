@@ -30,9 +30,9 @@ p {
 }
 
 .progress.red {
-  --ys-progress-value: #d50000;
+  --ys-accent: #d50000;
 }
 
 .progress.green {
-  --ys-progress-value: #00C853;
+  --ys-accent: #00C853;
 }
